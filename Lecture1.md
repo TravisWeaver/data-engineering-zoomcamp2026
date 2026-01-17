@@ -43,16 +43,16 @@ Codespaces:
 Codespaces on Desktop
 - We want to change the command prompt in the terminal because it is very long
     - > PS1=”> “
-PS1 variable is an environmental variable that defines the appearance of your command prompt
-However, when we reopen the terminal, we will have the original command prompt. 
-In order to always have the shorter command prompt, we do:
-echo ‘PS1=”> “‘ > ~/.bashrc
-echo 'PS1="> "' 
-outputs the text PS1="> " (PS1 is the environment variable that controls your bash prompt)
-> 
-redirects output and overwrites the target file (replacing all existing content)
-~/.bashrc 
-your bash configuration file that runs on every new shell session
+        - PS1 variable is an environmental variable that defines the appearance of your command prompt
+- However, when we reopen the terminal, we will have the original command prompt. 
+- In order to always have the shorter command prompt, we do:
+        - > echo ‘PS1=”> “‘ > ~/.bashrc
+            - > echo 'PS1="> "' 
+                - outputs the text PS1="> " (PS1 is the environment variable that controls your bash prompt)
+        - > > 
+            - redirects output and overwrites the target file (replacing all existing content)
+        - > ~/.bashrc 
+            - your bash configuration file that runs on every new shell session
 
 
 ## Introduction to Docker
