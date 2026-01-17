@@ -34,15 +34,15 @@ We will cover:
 ## Preparing the environment 
 
 Codespaces:
-    - Basically VS Code
-    - Comes with Docker and Python
-        - Python -V
-        - Docker –version
-    - It is recommended to use it on Desktop (Visual Studio Code)
-        - **NOTE**: It may be useful to install the Python extension into the codespace so that we can see method and argument suggestions for our scripts.
+- Basically VS Code
+- Comes with Docker and Python
+    - Python -V
+    - Docker –version
+- It is recommended to use it on Desktop (Visual Studio Code)
+    - **NOTE**: It may be useful to install the Python extension into the codespace so that we can see method and argument suggestions for our scripts.
 Codespaces on Desktop
-We want to change the command prompt in the terminal because it is very long
-PS1=”> “
+- We want to change the command prompt in the terminal because it is very long
+    - > PS1=”> “
 PS1 variable is an environmental variable that defines the appearance of your command prompt
 However, when we reopen the terminal, we will have the original command prompt. 
 In order to always have the shorter command prompt, we do:
