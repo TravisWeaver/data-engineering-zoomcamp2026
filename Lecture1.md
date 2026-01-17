@@ -26,8 +26,8 @@ We will cover:
 - Basic SQL knowledge (helpful but not required)
 - Docker and Python installed on your machine
 - Git (optional)
-    -We recommend using Code Spaces b/c it already has Docker and Python installed.
-    -Code Spaces works in linux, there will be challenges is you don’t use Code Spaces and instead use Windows.
+    - We recommend using Code Spaces b/c it already has Docker and Python installed.
+    - Code Spaces works in linux, there will be challenges is you don’t use Code Spaces and instead use Windows.
 
 
 
